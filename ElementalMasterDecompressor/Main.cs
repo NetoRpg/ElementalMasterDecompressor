@@ -63,7 +63,7 @@ namespace ElementalMasterDecompressor
                                     {
                                         int absolutePosition = 0x12 + basePosition + k + (0x100 * multiplier);
 
-                                        if (text.Length >= 0x1024 && absolutePosition + 0x1000 < text.Length)
+                                        if (text.Length >= 0x1000 && absolutePosition + 0x1000 < text.Length)
                                             absolutePosition += 0x1000;
 
                                         if (absolutePosition < text.Length)
